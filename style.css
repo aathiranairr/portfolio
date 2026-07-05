@@ -12,7 +12,7 @@ body{
     background:#FFF9F6;
     color:#444;
 }
-
+@media (max-width: 768px){
 header{
     display:flex;
     justify-content:space-between;
@@ -148,6 +148,7 @@ footer{
     color:white;
     text-align:center;
     padding:25px;
+}
 }
 
 @media(max-width:768px){
@@ -348,7 +349,7 @@ nav{
         }
 
 /* Cart Layout */
-
+@media (max-width: 768px){
 #cartItems{
     width:90%;
     margin:40px auto;
@@ -472,6 +473,7 @@ nav{
 
     background:#AE5A74;
 
+}
 }
 
 .contact{
