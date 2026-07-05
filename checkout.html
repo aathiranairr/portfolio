@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 style="text-align:center;margin-top:30px;">
+    Checkout
+</h1>
+
+<div class="checkout-container">
+
+    <input
+        type="text"
+        id="customerName"
+        placeholder="Full Name"
+    >
+
+    <input
+        type="text"
+        id="customerPhone"
+        placeholder="Phone Number"
+    >
+
+    <input
+        type="email"
+        id="customerEmail"
+        placeholder="Email (Optional)"
+    >
+
+    <textarea
+        id="customerAddress"
+        placeholder="Delivery Address"
+    ></textarea>
+
+    <h2 id="checkoutTotal"></h2>
+
+    <button onclick="sendWhatsAppOrder()">
+        Place Order on WhatsApp
+    </button>
+
+</div>
+
+<script src="checkout.js"></script>
+
+</body>
+</html>

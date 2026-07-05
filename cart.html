@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            📖 Tara Notes
+        </div>
+    
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    
+    </header>
+    
+
+<h1 style="text-align:center;margin-top:40px;">Shopping Cart</h1>
+
+<div id="cartItems"></div>
+<h2 id="grandTotal"></h2>
+
+<div class="cart-buttons">
+
+    <button onclick="window.location.href='index.html'">
+        ← Continue Shopping
+    </button>
+
+    <button onclick="goToCheckout()">
+        Proceed to Checkout
+    </button>
+
+</div>
+
+<script src="cart.js"></script>
+</body>
+</html>
